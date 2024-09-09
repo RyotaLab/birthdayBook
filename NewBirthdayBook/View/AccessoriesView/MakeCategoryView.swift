@@ -13,7 +13,7 @@ struct MakeCategoryView: View {
     @Binding var categoryList: [String]
     
     @FocusState private var focusedField: Field?
-    @State var inputCategory:String = ""
+    @State var inputCategoryName:String = ""
     @State var displayText:String = ""
     @State var doubleflag:Bool = false
     
@@ -32,7 +32,7 @@ struct MakeCategoryView: View {
                 )
                 .padding(.bottom)
             
-            TextField("3文字以下がおすすめ", text: $inputCategory)
+            TextField("3文字以下がおすすめ", text: $inputCategoryName)
                 .focused($focusedField, equals: .category)
                 .overlay(
                         RoundedRectangle(cornerSize: CGSize(width: 8.0, height: 8.0))
@@ -43,25 +43,25 @@ struct MakeCategoryView: View {
             
             
             Button{
-                if !(inputCategory == "") {
+                if !(inputCategoryName == "") {
                     if categoryList.isEmpty{
                         //カテゴリーに追加＆UserDefaultに保存&初期化
-                        categoryList.append(inputCategory)
+                        categoryList.append(inputCategoryName)
                         UserDefaults.standard.set(categoryList, forKey: "tagList")
-                        inputCategory = ""
+                        inputCategoryName = ""
                         dismiss()
                     }else{
                         //同じ名前チェック
                         for name in categoryList {
-                            if name == inputCategory{
+                            if name == inputCategoryName{
                                 doubleflag = true
                                 displayText = "既に存在します"
                             }
                         }
                         if !doubleflag {
-                            categoryList.append(inputCategory)
+                            categoryList.append(inputCategoryName)
                             UserDefaults.standard.set(categoryList, forKey: "tagList")
-                            inputCategory = ""
+                            inputCategoryName = ""
                             dismiss()
                         }
                     }

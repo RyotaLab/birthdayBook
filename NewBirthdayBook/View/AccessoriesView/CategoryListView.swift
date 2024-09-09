@@ -12,7 +12,7 @@ struct CategoryListView: View {
     @EnvironmentObject var categorySet: CategorySet
     
     @Binding var selectedCategory: String
-    let isTwo: Bool
+    let accessedByTwoPage: Bool
     
     @State var isSheet: Bool = false
     
@@ -21,7 +21,7 @@ struct CategoryListView: View {
             HStack(spacing:10){
                 Spacer()
                 
-                if isTwo {
+                if accessedByTwoPage {
                     Text("All")
                         .frame(width: 70, height: 35, alignment: .center)
                         .foregroundColor(selectedCategory == "" ? .white: .orange)
@@ -48,7 +48,7 @@ struct CategoryListView: View {
                             )
                             .background(selectedCategory == category ? .orange: .white, in: RoundedRectangle(cornerRadius: 10))
                             .onTapGesture {
-                                if isTwo {
+                                if accessedByTwoPage {
                                     selectedCategory = category
                                 }else{
                                     if selectedCategory == category{

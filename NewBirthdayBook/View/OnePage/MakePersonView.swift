@@ -109,7 +109,7 @@ struct MakePersonView: View {
                                 , alignment: .bottom
                             )
                         //CategoryView
-                        CategoryListView(selectedCategory: $selectedCategory, isTwo: false)
+                        CategoryListView(selectedCategory: $selectedCategory, accessedByTwoPage: false)
                             .padding()
                             .background(Color.background)
                         

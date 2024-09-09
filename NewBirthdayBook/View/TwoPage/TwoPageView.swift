@@ -31,7 +31,7 @@ struct TwoPageView: View {
                 Color.background
                 VStack{
                     
-                    CategoryListView(selectedCategory: $selectedCategory, isTwo: true)
+                    CategoryListView(selectedCategory: $selectedCategory, accessedByTwoPage: true)
                         .padding()
                         .background(Color.background)
                         .padding(.top)

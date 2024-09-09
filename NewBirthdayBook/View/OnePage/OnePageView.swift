@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct OnePageView: View {
+    
+    
     var body: some View {
         NavigationStack{
             ZStack{

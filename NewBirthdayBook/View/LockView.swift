@@ -10,9 +10,9 @@ import SwiftUI
 struct LockView: View {
     
     @State var passCheck: [String?] = [nil, nil, nil, nil]
-    @State var isShow = false
+    @State var showContent = false
     
-    let answer = UserDefaults.standard.string(forKey: "password")
+    let collectPass = UserDefaults.standard.string(forKey: "password")
     
     let face:FaceAuth = FaceAuth()
     let useFaceID = UserDefaults.standard.bool(forKey: "UseFaceID")
@@ -118,7 +118,7 @@ struct LockView: View {
                 }
             }
             
-            if isShow {
+            if showContent {
                 ContentView()
                     .environmentObject(NewBirthdayBook.passcodeCheck())
                     .environmentObject(NewBirthdayBook.CategorySet())
@@ -145,11 +145,11 @@ struct LockView: View {
                         
                         checkAnswer = checkAnswer + (passCheck[i] ?? "")
                     }
-                    if checkAnswer == answer {
+                    if checkAnswer == collectPass {
                         //一致
                         DispatchQueue.main.asyncAfter(deadline: .now()+0.3) {
                             withAnimation{
-                                isShow.toggle()
+                                showContent.toggle()
                             }
                         }
                         
