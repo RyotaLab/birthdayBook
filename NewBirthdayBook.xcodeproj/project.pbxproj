@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E18C8F52BC6BE09003D247D /* PremiumPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E18C8F42BC6BE09003D247D /* PremiumPlanView.swift */; };
+		2E18C8F92BC6BE55003D247D /* EditCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E18C8F82BC6BE55003D247D /* EditCategoryView.swift */; };
+		2E18C8FB2BC6BE76003D247D /* DonationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E18C8FA2BC6BE76003D247D /* DonationView.swift */; };
+		2E18C8FF2BC7C60C003D247D /* PersonCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E18C8FE2BC7C60C003D247D /* PersonCellView.swift */; };
+		2E18C9012BC7D740003D247D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E18C9002BC7D740003D247D /* Extension.swift */; };
+		2E18C9032BC91B7D003D247D /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E18C9022BC91B7D003D247D /* NotificationModel.swift */; };
+		2E18C9052BC9272F003D247D /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E18C9042BC9272F003D247D /* NotificationManager.swift */; };
+		2E18C9072BC9F8BE003D247D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E18C9062BC9F8BE003D247D /* StoreKit.framework */; };
+		2E18C90A2BC9FAE8003D247D /* PerchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E18C9092BC9FAE8003D247D /* PerchaseManager.swift */; };
+		2E25AA142BCBD40600FCBFA1 /* DateCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25AA132BCBD40600FCBFA1 /* DateCalculation.swift */; };
+		2E25AA162BCBD7AA00FCBFA1 /* Migrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25AA152BCBD7AA00FCBFA1 /* Migrator.swift */; };
+		2E36187E2BC6570600C657A6 /* CategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E36187D2BC6570600C657A6 /* CategoryListView.swift */; };
+		2E3618812BC6618A00C657A6 /* MakeCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3618802BC6618A00C657A6 /* MakeCategoryView.swift */; };
+		2E3618832BC675EE00C657A6 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3618822BC675EE00C657A6 /* LockView.swift */; };
+		2E3618852BC6761900C657A6 /* FaceAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3618842BC6761900C657A6 /* FaceAuthManager.swift */; };
+		2E3618882BC676F900C657A6 /* SetLockView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3618872BC676F900C657A6 /* SetLockView1.swift */; };
+		2E36188A2BC6770600C657A6 /* SetLockView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3618892BC6770600C657A6 /* SetLockView2.swift */; };
+		2E36188C2BC6837600C657A6 /* SetNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E36188B2BC6837600C657A6 /* SetNotificationView.swift */; };
+		2E36188E2BC684D600C657A6 /* CategorySet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E36188D2BC684D600C657A6 /* CategorySet.swift */; };
+		2E41D6892BC4E49300CE8F08 /* NewBirthdayBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E41D6882BC4E49300CE8F08 /* NewBirthdayBookApp.swift */; };
+		2E41D68B2BC4E49300CE8F08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E41D68A2BC4E49300CE8F08 /* ContentView.swift */; };
+		2E41D68D2BC4E49500CE8F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E41D68C2BC4E49500CE8F08 /* Assets.xcassets */; };
+		2E41D6902BC4E49500CE8F08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E41D68F2BC4E49500CE8F08 /* Preview Assets.xcassets */; };
+		2E41D6982BC4E5F200CE8F08 /* AdmobManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E41D6972BC4E5F200CE8F08 /* AdmobManager.swift */; };
+		2E72C03C2BC51A1E00463EA9 /* PersonListRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E72C03B2BC51A1E00463EA9 /* PersonListRealm.swift */; };
+		2E72C0462BC5240200463EA9 /* OnePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E72C0452BC5240200463EA9 /* OnePageView.swift */; };
+		2E72C0482BC5241F00463EA9 /* TwoPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E72C0472BC5241F00463EA9 /* TwoPageView.swift */; };
+		2E72C04A2BC5243B00463EA9 /* ThreePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E72C0492BC5243B00463EA9 /* ThreePageView.swift */; };
+		2E72C04C2BC5261B00463EA9 /* MakePersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E72C04B2BC5261B00463EA9 /* MakePersonView.swift */; };
+		2E72C04E2BC5286200463EA9 /* SecretView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E72C04D2BC5286200463EA9 /* SecretView.swift */; };
+		2E84F7C52BCFB0EC0064429E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2E84F7C42BCFB0EC0064429E /* PrivacyInfo.xcprivacy */; };
+		2E84F7C72BD0AA610064429E /* IconChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E84F7C62BD0AA610064429E /* IconChange.swift */; };
+		2E9AF3F42C0B1600006F895C /* IconChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9AF3F32C0B1600006F895C /* IconChangeView.swift */; };
+		2EB55D9F2BCCB0630030194F /* MailViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB55D9E2BCCB0630030194F /* MailViewManager.swift */; };
+		2EB55DA32BCDE38F0030194F /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB55DA22BCDE38F0030194F /* QuestionView.swift */; };
+		76D56C137011F64BD7D5D476 /* Pods_NewBirthdayBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0090B3731A2E7D7106E5A9E /* Pods_NewBirthdayBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E18C8F42BC6BE09003D247D /* PremiumPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumPlanView.swift; sourceTree = "<group>"; };
+		2E18C8F82BC6BE55003D247D /* EditCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCategoryView.swift; sourceTree = "<group>"; };
+		2E18C8FA2BC6BE76003D247D /* DonationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationView.swift; sourceTree = "<group>"; };
+		2E18C8FE2BC7C60C003D247D /* PersonCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCellView.swift; sourceTree = "<group>"; };
+		2E18C9002BC7D740003D247D /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		2E18C9022BC91B7D003D247D /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
+		2E18C9042BC9272F003D247D /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		2E18C9062BC9F8BE003D247D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2E18C9082BC9F8E2003D247D /* NewBirthdayBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewBirthdayBook.entitlements; sourceTree = "<group>"; };
+		2E18C9092BC9FAE8003D247D /* PerchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerchaseManager.swift; sourceTree = "<group>"; };
+		2E18C90C2BCA007D003D247D /* 誕生日Book：通知とメモを簡単にリスト化.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "誕生日Book：通知とメモを簡単にリスト化.storekit"; sourceTree = "<group>"; };
+		2E25AA132BCBD40600FCBFA1 /* DateCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCalculation.swift; sourceTree = "<group>"; };
+		2E25AA152BCBD7AA00FCBFA1 /* Migrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Migrator.swift; sourceTree = "<group>"; };
+		2E36187D2BC6570600C657A6 /* CategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListView.swift; sourceTree = "<group>"; };
+		2E3618802BC6618A00C657A6 /* MakeCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCategoryView.swift; sourceTree = "<group>"; };
+		2E3618822BC675EE00C657A6 /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		2E3618842BC6761900C657A6 /* FaceAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceAuthManager.swift; sourceTree = "<group>"; };
+		2E3618872BC676F900C657A6 /* SetLockView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLockView1.swift; sourceTree = "<group>"; };
+		2E3618892BC6770600C657A6 /* SetLockView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLockView2.swift; sourceTree = "<group>"; };
+		2E36188B2BC6837600C657A6 /* SetNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetNotificationView.swift; sourceTree = "<group>"; };
+		2E36188D2BC684D600C657A6 /* CategorySet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySet.swift; sourceTree = "<group>"; };
+		2E41D6852BC4E49300CE8F08 /* NewBirthdayBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewBirthdayBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E41D6882BC4E49300CE8F08 /* NewBirthdayBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBirthdayBookApp.swift; sourceTree = "<group>"; };
+		2E41D68A2BC4E49300CE8F08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E41D68C2BC4E49500CE8F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E41D68F2BC4E49500CE8F08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E41D6962BC4E55700CE8F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2E41D6972BC4E5F200CE8F08 /* AdmobManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmobManager.swift; sourceTree = "<group>"; };
+		2E72C03B2BC51A1E00463EA9 /* PersonListRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListRealm.swift; sourceTree = "<group>"; };
+		2E72C0452BC5240200463EA9 /* OnePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePageView.swift; sourceTree = "<group>"; };
+		2E72C0472BC5241F00463EA9 /* TwoPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPageView.swift; sourceTree = "<group>"; };
+		2E72C0492BC5243B00463EA9 /* ThreePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePageView.swift; sourceTree = "<group>"; };
+		2E72C04B2BC5261B00463EA9 /* MakePersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakePersonView.swift; sourceTree = "<group>"; };
+		2E72C04D2BC5286200463EA9 /* SecretView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretView.swift; sourceTree = "<group>"; };
+		2E84F7C42BCFB0EC0064429E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2E84F7C62BD0AA610064429E /* IconChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconChange.swift; sourceTree = "<group>"; };
+		2E9AF3F32C0B1600006F895C /* IconChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconChangeView.swift; sourceTree = "<group>"; };
+		2EB55D9E2BCCB0630030194F /* MailViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailViewManager.swift; sourceTree = "<group>"; };
+		2EB55DA22BCDE38F0030194F /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		7D9866C0F3D9F7EEB70C73AA /* Pods-NewBirthdayBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewBirthdayBook.debug.xcconfig"; path = "Target Support Files/Pods-NewBirthdayBook/Pods-NewBirthdayBook.debug.xcconfig"; sourceTree = "<group>"; };
+		9F6078CEFBB144AF21EBDAF7 /* Pods-NewBirthdayBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewBirthdayBook.release.xcconfig"; path = "Target Support Files/Pods-NewBirthdayBook/Pods-NewBirthdayBook.release.xcconfig"; sourceTree = "<group>"; };
+		C0090B3731A2E7D7106E5A9E /* Pods_NewBirthdayBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewBirthdayBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E41D6822BC4E49300CE8F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D56C137011F64BD7D5D476 /* Pods_NewBirthdayBook.framework in Frameworks */,
+				2E18C9072BC9F8BE003D247D /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E36187F2BC660F900C657A6 /* AccessoriesView */ = {
+			isa = PBXGroup;
+			children = (
+				2E36187D2BC6570600C657A6 /* CategoryListView.swift */,
+				2E3618802BC6618A00C657A6 /* MakeCategoryView.swift */,
+			);
+			path = AccessoriesView;
+			sourceTree = "<group>";
+		};
+		2E3618862BC676E000C657A6 /* SetLock */ = {
+			isa = PBXGroup;
+			children = (
+				2E3618872BC676F900C657A6 /* SetLockView1.swift */,
+				2E3618892BC6770600C657A6 /* SetLockView2.swift */,
+			);
+			path = SetLock;
+			sourceTree = "<group>";
+		};
+		2E41D67C2BC4E49300CE8F08 = {
+			isa = PBXGroup;
+			children = (
+				2E41D6872BC4E49300CE8F08 /* NewBirthdayBook */,
+				2E41D6862BC4E49300CE8F08 /* Products */,
+				A88C01369AC57B85D9BA14B6 /* Pods */,
+				3748C2A479990FE1A071B356 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E41D6862BC4E49300CE8F08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E41D6852BC4E49300CE8F08 /* NewBirthdayBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E41D6872BC4E49300CE8F08 /* NewBirthdayBook */ = {
+			isa = PBXGroup;
+			children = (
+				2E18C9082BC9F8E2003D247D /* NewBirthdayBook.entitlements */,
+				2E41D6882BC4E49300CE8F08 /* NewBirthdayBookApp.swift */,
+				2E25AA152BCBD7AA00FCBFA1 /* Migrator.swift */,
+				2E41D6992BC4ECCE00CE8F08 /* Model */,
+				2E41D69A2BC4ECD900CE8F08 /* View */,
+				2E41D69B2BC4ECDE00CE8F08 /* Controller */,
+				2E41D68C2BC4E49500CE8F08 /* Assets.xcassets */,
+				2E41D6962BC4E55700CE8F08 /* Info.plist */,
+				2E41D68E2BC4E49500CE8F08 /* Preview Content */,
+				2E84F7C42BCFB0EC0064429E /* PrivacyInfo.xcprivacy */,
+			);
+			path = NewBirthdayBook;
+			sourceTree = "<group>";
+		};
+		2E41D68E2BC4E49500CE8F08 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E41D68F2BC4E49500CE8F08 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E41D6992BC4ECCE00CE8F08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E72C03B2BC51A1E00463EA9 /* PersonListRealm.swift */,
+				2E18C9002BC7D740003D247D /* Extension.swift */,
+				2E36188D2BC684D600C657A6 /* CategorySet.swift */,
+				2E18C9022BC91B7D003D247D /* NotificationModel.swift */,
+				2E84F7C62BD0AA610064429E /* IconChange.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E41D69A2BC4ECD900CE8F08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E3618822BC675EE00C657A6 /* LockView.swift */,
+				2E41D68A2BC4E49300CE8F08 /* ContentView.swift */,
+				2E36187F2BC660F900C657A6 /* AccessoriesView */,
+				2E72C0422BC5237000463EA9 /* OnePage */,
+				2E72C0432BC5237600463EA9 /* TwoPage */,
+				2E72C0442BC5237F00463EA9 /* ThreePage */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E41D69B2BC4ECDE00CE8F08 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E3618842BC6761900C657A6 /* FaceAuthManager.swift */,
+				2E41D6972BC4E5F200CE8F08 /* AdmobManager.swift */,
+				2E18C9042BC9272F003D247D /* NotificationManager.swift */,
+				2E18C9092BC9FAE8003D247D /* PerchaseManager.swift */,
+				2E25AA132BCBD40600FCBFA1 /* DateCalculation.swift */,
+				2EB55D9E2BCCB0630030194F /* MailViewManager.swift */,
+				2E18C90C2BCA007D003D247D /* 誕生日Book：通知とメモを簡単にリスト化.storekit */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E72C0422BC5237000463EA9 /* OnePage */ = {
+			isa = PBXGroup;
+			children = (
+				2E72C0452BC5240200463EA9 /* OnePageView.swift */,
+				2E72C04B2BC5261B00463EA9 /* MakePersonView.swift */,
+				2E72C04D2BC5286200463EA9 /* SecretView.swift */,
+			);
+			path = OnePage;
+			sourceTree = "<group>";
+		};
+		2E72C0432BC5237600463EA9 /* TwoPage */ = {
+			isa = PBXGroup;
+			children = (
+				2E72C0472BC5241F00463EA9 /* TwoPageView.swift */,
+				2E18C8FE2BC7C60C003D247D /* PersonCellView.swift */,
+			);
+			path = TwoPage;
+			sourceTree = "<group>";
+		};
+		2E72C0442BC5237F00463EA9 /* ThreePage */ = {
+			isa = PBXGroup;
+			children = (
+				2E72C0492BC5243B00463EA9 /* ThreePageView.swift */,
+				2E36188B2BC6837600C657A6 /* SetNotificationView.swift */,
+				2E18C8F82BC6BE55003D247D /* EditCategoryView.swift */,
+				2E3618862BC676E000C657A6 /* SetLock */,
+				2E18C8F42BC6BE09003D247D /* PremiumPlanView.swift */,
+				2E9AF3F32C0B1600006F895C /* IconChangeView.swift */,
+				2E18C8FA2BC6BE76003D247D /* DonationView.swift */,
+				2EB55DA22BCDE38F0030194F /* QuestionView.swift */,
+			);
+			path = ThreePage;
+			sourceTree = "<group>";
+		};
+		3748C2A479990FE1A071B356 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E18C9062BC9F8BE003D247D /* StoreKit.framework */,
+				C0090B3731A2E7D7106E5A9E /* Pods_NewBirthdayBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A88C01369AC57B85D9BA14B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D9866C0F3D9F7EEB70C73AA /* Pods-NewBirthdayBook.debug.xcconfig */,
+				9F6078CEFBB144AF21EBDAF7 /* Pods-NewBirthdayBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E41D6842BC4E49300CE8F08 /* NewBirthdayBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E41D6932BC4E49500CE8F08 /* Build configuration list for PBXNativeTarget "NewBirthdayBook" */;
+			buildPhases = (
+				1B71EDCECA44EA1A71AFF449 /* [CP] Check Pods Manifest.lock */,
+				2E41D6812BC4E49300CE8F08 /* Sources */,
+				2E41D6822BC4E49300CE8F08 /* Frameworks */,
+				2E41D6832BC4E49300CE8F08 /* Resources */,
+				0F61DB323BA119817EE125DC /* [CP] Copy Pods Resources */,
+				27A0299D3F9164AA305B215F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewBirthdayBook;
+			productName = NewBirthdayBook;
+			productReference = 2E41D6852BC4E49300CE8F08 /* NewBirthdayBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E41D67D2BC4E49300CE8F08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2E41D6842BC4E49300CE8F08 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 2E41D6802BC4E49300CE8F08 /* Build configuration list for PBXProject "NewBirthdayBook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ja,
+			);
+			mainGroup = 2E41D67C2BC4E49300CE8F08;
+			productRefGroup = 2E41D6862BC4E49300CE8F08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E41D6842BC4E49300CE8F08 /* NewBirthdayBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E41D6832BC4E49300CE8F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E84F7C52BCFB0EC0064429E /* PrivacyInfo.xcprivacy in Resources */,
+				2E41D6902BC4E49500CE8F08 /* Preview Assets.xcassets in Resources */,
+				2E41D68D2BC4E49500CE8F08 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F61DB323BA119817EE125DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewBirthdayBook/Pods-NewBirthdayBook-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewBirthdayBook/Pods-NewBirthdayBook-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewBirthdayBook/Pods-NewBirthdayBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B71EDCECA44EA1A71AFF449 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewBirthdayBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27A0299D3F9164AA305B215F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewBirthdayBook/Pods-NewBirthdayBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewBirthdayBook/Pods-NewBirthdayBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewBirthdayBook/Pods-NewBirthdayBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E41D6812BC4E49300CE8F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E18C9012BC7D740003D247D /* Extension.swift in Sources */,
+				2E36188E2BC684D600C657A6 /* CategorySet.swift in Sources */,
+				2E72C04E2BC5286200463EA9 /* SecretView.swift in Sources */,
+				2EB55DA32BCDE38F0030194F /* QuestionView.swift in Sources */,
+				2E72C03C2BC51A1E00463EA9 /* PersonListRealm.swift in Sources */,
+				2E36188C2BC6837600C657A6 /* SetNotificationView.swift in Sources */,
+				2E36188A2BC6770600C657A6 /* SetLockView2.swift in Sources */,
+				2E18C8F52BC6BE09003D247D /* PremiumPlanView.swift in Sources */,
+				2E72C0462BC5240200463EA9 /* OnePageView.swift in Sources */,
+				2E72C0482BC5241F00463EA9 /* TwoPageView.swift in Sources */,
+				2E9AF3F42C0B1600006F895C /* IconChangeView.swift in Sources */,
+				2E25AA162BCBD7AA00FCBFA1 /* Migrator.swift in Sources */,
+				2E3618882BC676F900C657A6 /* SetLockView1.swift in Sources */,
+				2E3618852BC6761900C657A6 /* FaceAuthManager.swift in Sources */,
+				2E18C90A2BC9FAE8003D247D /* PerchaseManager.swift in Sources */,
+				2E18C8FF2BC7C60C003D247D /* PersonCellView.swift in Sources */,
+				2E25AA142BCBD40600FCBFA1 /* DateCalculation.swift in Sources */,
+				2E36187E2BC6570600C657A6 /* CategoryListView.swift in Sources */,
+				2E18C8FB2BC6BE76003D247D /* DonationView.swift in Sources */,
+				2E3618832BC675EE00C657A6 /* LockView.swift in Sources */,
+				2E41D6982BC4E5F200CE8F08 /* AdmobManager.swift in Sources */,
+				2EB55D9F2BCCB0630030194F /* MailViewManager.swift in Sources */,
+				2E3618812BC6618A00C657A6 /* MakeCategoryView.swift in Sources */,
+				2E18C9032BC91B7D003D247D /* NotificationModel.swift in Sources */,
+				2E72C04A2BC5243B00463EA9 /* ThreePageView.swift in Sources */,
+				2E18C8F92BC6BE55003D247D /* EditCategoryView.swift in Sources */,
+				2E41D68B2BC4E49300CE8F08 /* ContentView.swift in Sources */,
+				2E18C9052BC9272F003D247D /* NotificationManager.swift in Sources */,
+				2E41D6892BC4E49300CE8F08 /* NewBirthdayBookApp.swift in Sources */,
+				2E72C04C2BC5261B00463EA9 /* MakePersonView.swift in Sources */,
+				2E84F7C72BD0AA610064429E /* IconChange.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2E41D6912BC4E49500CE8F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E41D6922BC4E49500CE8F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E41D6942BC4E49500CE8F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D9866C0F3D9F7EEB70C73AA /* Pods-NewBirthdayBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "\"AppIcon 1\" \"AppIcon 8\" \"AppIcon 7\" \"AppIcon 6\" \"AppIcon 5\" \"AppIcon 4\" \"AppIcon 12\" \"AppIcon 11\" \"AppIcon 10\" \"AppIcon 9\" \"AppIcon 13\"";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = NewBirthdayBook/NewBirthdayBook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NewBirthdayBook/Preview Content\"";
+				DEVELOPMENT_TEAM = 97QJ6S5587;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewBirthdayBook/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "誕生本";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "I use this to unlock the phone";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.20;
+				PRODUCT_BUNDLE_IDENTIFIER = tanabi.NewBirthdayBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2E41D6952BC4E49500CE8F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F6078CEFBB144AF21EBDAF7 /* Pods-NewBirthdayBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "\"AppIcon 1\" \"AppIcon 8\" \"AppIcon 7\" \"AppIcon 6\" \"AppIcon 5\" \"AppIcon 4\" \"AppIcon 12\" \"AppIcon 11\" \"AppIcon 10\" \"AppIcon 9\" \"AppIcon 13\"";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = NewBirthdayBook/NewBirthdayBook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NewBirthdayBook/Preview Content\"";
+				DEVELOPMENT_TEAM = 97QJ6S5587;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewBirthdayBook/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "誕生本";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "I use this to unlock the phone";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.20;
+				PRODUCT_BUNDLE_IDENTIFIER = tanabi.NewBirthdayBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E41D6802BC4E49300CE8F08 /* Build configuration list for PBXProject "NewBirthdayBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E41D6912BC4E49500CE8F08 /* Debug */,
+				2E41D6922BC4E49500CE8F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E41D6932BC4E49500CE8F08 /* Build configuration list for PBXNativeTarget "NewBirthdayBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E41D6942BC4E49500CE8F08 /* Debug */,
+				2E41D6952BC4E49500CE8F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E41D67D2BC4E49300CE8F08 /* Project object */;
+}

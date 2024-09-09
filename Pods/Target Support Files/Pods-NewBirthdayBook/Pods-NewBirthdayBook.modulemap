@@ -1,0 +1,6 @@
+framework module Pods_NewBirthdayBook {
+  umbrella header "Pods-NewBirthdayBook-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,130 @@
+{
+  "identifier" : "0CF78545",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "6.99",
+      "familyShareable" : false,
+      "internalID" : "6496679525",
+      "localizations" : [
+        {
+          "description" : "広告が永久になくなります。",
+          "displayName" : "プレミアムプラン",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "tanabi.NewBirthdayBook.premiumplan",
+      "referenceName" : "プレミアムプラン",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "6496679823",
+      "localizations" : [
+        {
+          "description" : "開発者への寄付となります",
+          "displayName" : "ジュースを奢る",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "tanabi.NewBirthdayBook.donation.item1",
+      "referenceName" : "寄付（ジュース）",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "6.99",
+      "familyShareable" : false,
+      "internalID" : "6496679899",
+      "localizations" : [
+        {
+          "description" : "開発者への寄付になります",
+          "displayName" : "ラーメンを奢る",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "tanabi.NewBirthdayBook.donation.item3",
+      "referenceName" : "寄付（ラーメン）",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "6496679791",
+      "localizations" : [
+        {
+          "description" : "開発者への寄付になります",
+          "displayName" : "餃子を奢る",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "tanabi.NewBirthdayBook.donation.item2",
+      "referenceName" : "寄付（餃子）",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6496679663",
+    "_developerTeamID" : "97QJ6S5587",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 734658689.12534201,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
