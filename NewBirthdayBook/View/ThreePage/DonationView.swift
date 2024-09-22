@@ -137,7 +137,7 @@ struct DonationView: View {
             
             
         }
-        .navigationTitle("奢る")
+        .navigationBarTitle("奢る", displayMode: .inline)
         .navigationBarBackButtonHidden()
         .toolbar {
             ToolbarItem(placement: .topBarLeading){

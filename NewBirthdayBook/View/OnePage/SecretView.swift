@@ -81,7 +81,7 @@ struct SecretView: View {
                     .foregroundColor(.red)
             }
         }
-        .navigationTitle("本の後ろ")
+        .navigationBarTitle("本の後ろ", displayMode: .inline)
         .navigationBarBackButtonHidden()
         .toolbar {
             ToolbarItem(placement: .topBarLeading){

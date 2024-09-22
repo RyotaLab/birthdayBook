@@ -120,7 +120,7 @@ struct PersonCellView: View {
                                 , alignment: .bottom
                             )
                         //CategoryView
-                        CategoryListView(selectedCategory: $selectedCategory, isTwo: false)
+                        CategoryListView(selectedCategory: $selectedCategory, accessedByTwoPage: false)
                             .padding()
                             .background(Color.background)
                         
@@ -194,7 +194,7 @@ struct PersonCellView: View {
                 }//ZStack
             }//scroll
         }//ZStack
-        .navigationTitle("更新する")
+        .navigationBarTitle("更新する", displayMode: .inline)
         .navigationBarBackButtonHidden()
         .toolbar {
             ToolbarItem(placement: .topBarLeading){

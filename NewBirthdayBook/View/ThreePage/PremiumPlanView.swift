@@ -115,7 +115,7 @@ struct PremiumPlanView: View {
                 }
             }
         }//ZStack
-        .navigationTitle("プレミアムプランを購入")
+        .navigationBarTitle("プレミアムプランを購入", displayMode: .inline)
         .navigationBarBackButtonHidden()
         .toolbar {
             ToolbarItem(placement: .topBarLeading){

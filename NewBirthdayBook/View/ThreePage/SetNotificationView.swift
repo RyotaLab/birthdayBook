@@ -91,7 +91,7 @@ struct SetNotificationView: View {
                 }
             }
         }
-        .navigationTitle("通知設定")
+        .navigationBarTitle("通知設定", displayMode: .inline)
         .navigationBarBackButtonHidden()
         .toolbar {
             ToolbarItem(placement: .topBarLeading){

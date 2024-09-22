@@ -32,9 +32,12 @@ struct IconChangeView1: View {
             VStack(spacing:20){
                 
                 Text("プレミアムプランの方のみ使用いただけます")
+                    .foregroundColor(.button)
                     .padding(.top, 20)
                 Text("是非使ってみてね！")
+                    .foregroundColor(.button)
                 Text("クリックすればそのアイコンに変わります")
+                    .foregroundColor(.button)
                 List{
                     //初期アイコン
                     HStack{
@@ -102,7 +105,7 @@ struct IconChangeView1: View {
             }
         }
         
-        .navigationTitle("icon変更")
+        .navigationBarTitle("icon変更", displayMode: .inline)
         .navigationBarBackButtonHidden()
         .toolbar {
             ToolbarItem(placement: .topBarLeading){

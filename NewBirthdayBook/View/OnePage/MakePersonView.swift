@@ -214,10 +214,9 @@ struct MakePersonView: View {
             }//scroll
         }//ZStack
         .onAppear() { 
-            print("a")
             interstitial.loadInterstitial()}
                           
-        .navigationTitle("登録する")
+        .navigationBarTitle("登録する", displayMode: .inline)
         .navigationBarBackButtonHidden()
         .toolbar {
             ToolbarItem(placement: .topBarLeading){

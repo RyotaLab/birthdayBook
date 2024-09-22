@@ -95,7 +95,7 @@ struct QuestionView: View {
                 }
             }
         }
-        .navigationTitle("問い合わせ")
+        .navigationBarTitle("問い合わせ", displayMode: .inline)
         .navigationBarBackButtonHidden()
         .toolbar {
             ToolbarItem(placement: .topBarLeading){

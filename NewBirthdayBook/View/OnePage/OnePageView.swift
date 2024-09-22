@@ -26,6 +26,7 @@ struct OnePageView: View {
 //                        .font(.system(size: 100))
 //                    
                     Text("あなただけの本を作りましょう")
+                        .foregroundColor(.button)
                         .frame(height: 100)
                         .font(.body)
                     

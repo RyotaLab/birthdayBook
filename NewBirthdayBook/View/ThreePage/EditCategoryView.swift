@@ -78,7 +78,7 @@ struct EditCategoryView: View {
         .sheet(isPresented: $isSheet) {
             MakeCategoryView(categoryList: $categorySet.categoryList)
         }
-        .navigationTitle("優先度が高いのは上へ")
+        .navigationBarTitle("優先度が高いのは上へ", displayMode: .inline)
         .navigationBarBackButtonHidden()
         .toolbar {
             ToolbarItem(placement: .topBarLeading){

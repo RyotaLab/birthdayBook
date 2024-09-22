@@ -170,7 +170,7 @@ struct LockView: View {
                 passCheck = ["a", "a", "a", "a"]
                 DispatchQueue.main.asyncAfter(deadline: .now()+0.1) {
                     withAnimation{
-                        isShow.toggle()
+                        showContent.toggle()
                     }
                 }
             }
